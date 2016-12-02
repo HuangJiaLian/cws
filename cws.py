@@ -8,7 +8,7 @@ import optparse
 import urllib3
 import requests
 import xmltodict
-from pyfiglet import Figlet
+#from pyfiglet import Figlet
 from prettytable import PrettyTable
 
 def welcome():
@@ -118,8 +118,8 @@ def get_sun():
 
 def get_version():
     print("China Weather Station")
-    f = Figlet(font='soft')
-    print(f.renderText('CWS'))
+    #f = Figlet(font='soft')
+    #print(f.renderText('CWS'))
     print("cws:V1.0")
 
 
